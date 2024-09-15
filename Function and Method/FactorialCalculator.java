@@ -1,20 +1,16 @@
-public class FactorialCalculator {
-
-    // Method to calculate the factorial of a number iteratively
-    public static int factorialIterative(int n) {
-        int result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i;
+import java.util.*;
+public class FactorialCalculator{
+    public static int Factorial(int n){
+        int fact=1;
+        for (int i=1;i<=n;i++){
+            fact=fact*i;
         }
-        return result;
+        System.out.println(fact);
+        return fact;
     }
-
-    // Main method to test the factorialIterative method
-    public static void main(String[] args) {
-        int number = 5;
-        
-        int result = factorialIterative(number);
-        
-        System.out.println("The factorial of " + number + " is: " + result);
+    public static void main (String args []){
+        Scanner sc=new Scanner (System.in);
+        int n=sc.nextInt();
+        Factorial(n);
     }
 }
