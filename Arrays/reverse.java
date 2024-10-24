@@ -1,7 +1,6 @@
 import java.util.*;
 public class reverse{
     public static void reverse(int num[]){
-        int lar=Integer.MIN_VALUE;
         int start=0,end=num.length-1;
         while(start<end){
             int temp=num[end];
