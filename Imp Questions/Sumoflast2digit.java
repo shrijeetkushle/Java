@@ -9,6 +9,5 @@ public class Sumoflast2digit {
 		int l2=num2%10;
 		int sum=l1+l2;
 		System.out.println(sum);
-		
 	}
 }
