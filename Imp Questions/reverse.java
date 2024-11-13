@@ -10,7 +10,6 @@ public class reverse{
             if(min>num[i]){
                 min=num[i];
             }
-            
     }
     System.out.println(lar+" "+min);
 }
