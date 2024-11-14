@@ -11,6 +11,7 @@ public class reverse{
                 min=num[i];
             }
     }
+        
     System.out.println(lar+" "+min);
 }
     public static void main (String args []){
