@@ -21,6 +21,8 @@ public class Subarray{
             }
             System.out.println();
         }
+
+        
         System.out.println("lar is :"+lar);
         System.out.println("min is :"+min);
     }
