@@ -14,6 +14,7 @@ public class Subarray{
                     if(min>sum){
                         min=sum;
                     }
+                    
                     System.out.print(num[k]+" ");  
                 }
                 System.out.println();
