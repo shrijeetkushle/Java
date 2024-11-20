@@ -18,6 +18,7 @@ public class linear {
         else{
             System.out.println("Key is at Index :"+index);
         }
+        
     }
 }
 
