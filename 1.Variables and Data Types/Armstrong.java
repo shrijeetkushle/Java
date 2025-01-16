@@ -9,6 +9,7 @@ public class Armstrong{
             int cub=(int)Math.pow(last,3);
             sum+=cub;
             n=n/10;
+            
         }
         System.out.println(sum);
     }
