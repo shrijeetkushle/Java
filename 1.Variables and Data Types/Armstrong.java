@@ -13,7 +13,7 @@ public class Armstrong{
         Scanner sc=new Scanner (System.in);
         System.out.print(" Enter the number : ");
         int n=sc.nextInt();
-        int digits=String.valueOf(n).length();
+        int digits=String.valueOf(n).length(); // Here valueof(n),where of should be uppercase Of 
         if(Sumofpow(n,digits)==n){
             System.out.println("Armstrong Number");
         }
