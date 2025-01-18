@@ -1,6 +1,6 @@
 import java.util.*;
 public class Avgofthreenum{
-    public static void main (String args []){
+    public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number 1: ");
         int n1 = sc.nextInt();
@@ -15,5 +15,6 @@ public class Avgofthreenum{
         } else {
             System.out.println("Number three is the greatest");
         }
+        sc.close();
     }
 }
