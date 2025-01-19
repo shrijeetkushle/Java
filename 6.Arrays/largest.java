@@ -13,7 +13,7 @@ public class Largest{
     }
     System.out.println(lar+" "+min);
 }
-    public static void main (String args []){
+    public static void main (String[] args){
         int arr[]={1,2,3,4,5};
         largest(arr);
     }
