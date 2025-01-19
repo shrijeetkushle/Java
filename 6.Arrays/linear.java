@@ -8,7 +8,7 @@ public class linear {
         }
         return -1;
     }
-    public static void main(String args []){
+    public static void main(String[] args){
         int arr[]={1,4,3,2,5};
         int key=1;
         int index=linear(arr,key);
