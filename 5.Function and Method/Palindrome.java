@@ -10,7 +10,7 @@ public class Palindrome{
         }
         return rev==n;
     }
-    public static void main (String args []){
+    public static void main (String[] args){
         Scanner sc=new Scanner (System.in);
         int n=sc.nextInt();
         if(reverse(n)){
@@ -20,4 +20,5 @@ public class Palindrome{
             System.out.println("no");
         }
     }
+    sc.colse();
 }
