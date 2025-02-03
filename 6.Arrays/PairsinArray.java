@@ -13,7 +13,7 @@ public class PairsinArray{
             System.out.printf("%-10d\n",count);
         }
     }
-    public static void main (String args []){
+    public static void main (String[] args){
         int arr[]={1,2,3,4,5};
         pairs(arr);
 
