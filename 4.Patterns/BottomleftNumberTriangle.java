@@ -23,7 +23,7 @@ public class BottomleftNumberTriangle{
         Scanner sc=new Scanner (System.in);
         int n=sc.nextInt();
         sc.close();
-        //BottomleftNumberTriangle(n);
+        BottomleftNumberTriangle(n);
         Half_pyramid(n);
     }
 }
