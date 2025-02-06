@@ -1,4 +1,4 @@
-// Pattern shap
+// Pattern shape
 // *          i-j=0
 // * *        i-j=1
 // * * *      i-j=2
