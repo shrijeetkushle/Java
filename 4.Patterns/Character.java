@@ -1,7 +1,15 @@
+// Pattern shape
+// A
+// B C
+// D E F
+// G H I J
+
+//code
 import java.util.*;
 public class Character{
     public static void main (String[] args){
         Scanner sc=new Scanner (System.in);
+        System.out.print("Enter the Number :");
         int n=sc.nextInt();
         char ch='A';
         for(int i=1;i<=n;i++){
@@ -13,5 +21,4 @@ public class Character{
         }
         sc.close();
     }
-   
 }
