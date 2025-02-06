@@ -1,3 +1,10 @@
+// Pattern shap
+// *          i-j=0
+// * *        i-j=1
+// * * *      i-j=2
+// * * * *    i=j=3
+
+//code
 import java.util.*;
 public class BottomleftTriangle {
     //Method -- 1
@@ -13,6 +20,7 @@ public class BottomleftTriangle {
     //method -- 2
     public static void BottomleftTriangle(int n){
         for(int i=1;i<=n;i++){
+            //i-j>=0
             for(int j=1;j<=n;j++){
                 if(i-j>=0){
                     System.out.print("* ");
