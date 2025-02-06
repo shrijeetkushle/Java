@@ -4,7 +4,7 @@ public class Fibonacci{
         Scanner sc=new Scanner (System.in);
         System.out.print("Enter the number of terms you want to print :");
         int n=sc.nextInt();
-        sc.colse();
+        sc.close();
         int first=0;
         int second=1;
         if(n==0){
