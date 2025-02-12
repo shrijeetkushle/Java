@@ -17,5 +17,4 @@ public class isprime {
         System.out.println(isprime(n));
     }
     sc.close();
-    
 }
