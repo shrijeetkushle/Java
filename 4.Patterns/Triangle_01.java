@@ -23,6 +23,7 @@ public class Triangle_01{
         Scanner sc=new Scanner (System.in);
         System.out.print("Enter the Number :");
         int n=sc.nextInt();
+        sc.close();
         Triangle01(n);
     }
 }
