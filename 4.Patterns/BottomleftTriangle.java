@@ -16,6 +16,7 @@ public class BottomleftTriangle {
             System.out.println();
         }
     }
+    
 
     //method -- 2
     public static void BottomleftTriangle(int n){
