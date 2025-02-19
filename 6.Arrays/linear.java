@@ -12,7 +12,7 @@ public class linear {
         int arr[]={1,4,3,2,5};
         int key=1;
         int index=linear(arr,key);
-        if(index==key){
+        if(index==-1){
             System.out.println("Not Found");
         }
         else{
