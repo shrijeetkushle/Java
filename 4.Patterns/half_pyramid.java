@@ -12,9 +12,13 @@ public class half_pyramid{
 
     public static void halfpyramid (int n){
         for(int i=1;i<=n;i++){
+            
+            // print space
             for(int j=1;j<=n-i;j++){
                 System.out.print(" ");
             }
+
+            // print number
             int num=1;
             //(2*i)-1
             for(int k=1;k<=(2*i)-1;k++){
@@ -35,9 +39,12 @@ public class half_pyramid{
     public static void halfpyramid_Pattern(int n){
     
         for(int i=1;i<=n;i++){
+            // print space
             for(int j=1;j<=n-i;j++){
                 System.out.print(" ");
             }
+
+            // print number 
             int num=1;
             boolean increase=true;
             while(num>0){
