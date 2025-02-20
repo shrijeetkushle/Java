@@ -24,7 +24,7 @@ public class Subarray{
         System.out.println("lar is :"+lar);
         System.out.println("min is :"+min);
     }
-    public static void main (String args []){
+    public static void main (String[] args){
         int arr[]={1,2,3,4,5};
         Subarray(arr);
 
