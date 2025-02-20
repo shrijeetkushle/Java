@@ -4,6 +4,7 @@ public class bineary{
         int start=0,end=num.length-1;
         while(start<=end ){
             int mid=(start+end)/2;
+            // Search for the key
         if(num[mid]==key){
             return mid;
         }
@@ -16,7 +17,7 @@ public class bineary{
     }
     return -1;
 }
-    public static void main (String args []){
+    public static void main (String[] args){
         int arr[]={1,2,3,4,5};
         int key=5;
         System.out.println(linear(arr,key));
