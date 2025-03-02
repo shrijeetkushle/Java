@@ -13,6 +13,7 @@ public class PairsinArray{
             }
            // -10d = gives spaces
             System.out.printf("%-10d\n",count); 
+            // To find the Number of count = n(n+1)/2;
         }
     }
 
