@@ -52,11 +52,13 @@ public class MinMaxarray{
             System.out.println();
         }
         System.out.println("Min Value is : "+min);
-            System.out.println("Max Value is : "+max);
+        System.out.println("Max Value is : "+max);
     }
+
+    
     public static void main (String args []){
         int arr[]={1,2,3,4,5};
         Subarray(arr);
-
+        Pairs(arr);
     }
 }
