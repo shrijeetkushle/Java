@@ -27,7 +27,7 @@ public class MinMaxarray{
             System.out.println("min is :"+min);
     }
 
-
+    
     // Method --2
     public static void Pairs(int arr[]){
         int min=Integer.MAX_VALUE;
