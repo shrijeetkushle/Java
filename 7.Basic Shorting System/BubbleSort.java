@@ -16,7 +16,7 @@ public class BubbleSort {
             }
         }
     }
-
+    
     public static void modifiedBubbleSort(int arr[]) {
         for(int turn=0; turn<arr.length-1; turn++) {
             boolean swapped = false;
