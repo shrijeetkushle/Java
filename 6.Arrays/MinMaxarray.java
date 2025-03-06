@@ -55,7 +55,6 @@ public class MinMaxarray{
         System.out.println("Max Value is : "+max);
     }
 
-    
     public static void main (String args []){
         int arr[]={1,2,3,4,5};
         Subarray(arr);
