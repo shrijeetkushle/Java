@@ -1,6 +1,6 @@
 import java.util.*;
 public class reverse{
-    public static void reverse(int num[]){
+    public static void reverse(int[] num){
         int start=0,end=num.length-1;
         while(start<end){
 
