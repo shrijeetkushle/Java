@@ -12,6 +12,7 @@ public class productExceptSelf {
             }
             ans[i]=product;
         }
+        
         return ans;
     }
     public static void main (String[] args){
