@@ -43,6 +43,7 @@ public class Bottomrighttriangle {
 
     public static void Rotatedhalf_Pyramid(int n){
         for(int i=1;i<=n;i++){
+            // n-i to print the spaces
             for(int j=1;j<=n-i;j++){
                 System.out.print(" ");
             }
