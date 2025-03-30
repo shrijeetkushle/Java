@@ -36,7 +36,6 @@ public class Bottomrighttriangle {
             }
             System.out.println();
         }
-    
     }
 
     //method -- 3
