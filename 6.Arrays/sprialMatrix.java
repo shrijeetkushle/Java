@@ -1,6 +1,6 @@
 import java.util.*;
-public class java_pratices{
-  public static void search(int matrix[][]){
+public class sprialMatrix{
+  public static void SprialMatrix(int matrix[][]){
     int sr=0;
     int sc=0;
     int er=matrix.length-1;
@@ -10,12 +10,12 @@ public class java_pratices{
       
       //top
       for(int j=sc;j<=ec;j++){
-        System.out.print(matrix[sr][j]);
+        System.out.print(matrix[sr][j]+" ");
       }
 
       //right
       for(int i=sr+1;i<=er;i++){
-        System.out.print(matrix[i][ec]);
+        System.out.print(matrix[i][ec]+" ");
       }
 
       //bottom
@@ -23,7 +23,7 @@ public class java_pratices{
         if(sr==er){
           break;
         }
-        System.out.print(matrix[er][j]);
+        System.out.print(matrix[er][j]+" ");
       }
 
       //left
@@ -31,7 +31,7 @@ public class java_pratices{
         if(sc==ec){
           break;
         }
-        System.out.print(matrix[i][sc]);
+        System.out.print(matrix[i][sc]+" ");
       }
 
       sr++;
@@ -59,7 +59,8 @@ public class java_pratices{
       }
       System.out.println();
     }
-    search(matrix);
+    SprialMatrix(matrix);
 
   }
 }
+
